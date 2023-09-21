@@ -25,8 +25,8 @@ It assumed you have `build` script for building assets in `package.json`.
 
 ### Environment variables
 
-`SKIP_PNPM_INSTALL` - skip `pnpm install` when `assets:precompile` gets called.
-`SKIP_JS_BUILD` - skip `pnpm run build` when `assets:precompile` gets called.
+* `SKIP_PNPM_INSTALL` - skip `pnpm install` when `assets:precompile` gets called.
+* `SKIP_JS_BUILD` - disable hooking `pnpm install` and `pnpm run build` into `assets:precompile`.
 
 ## Contributing
 
